@@ -1,0 +1,17 @@
+spark:
+  app:
+    name: Test
+    tweetsLimit: 100
+    timeout: 30000 #miliseconds
+    outdir: twitterdata/tweets_
+  master: local[2]
+  batch:
+    duration: 1000 #miliseconds
+
+twitter:
+  oauth:
+    consumer:
+      key: QQQQQ
+      secret: VVVV
+  tweet:
+    filter: cnn

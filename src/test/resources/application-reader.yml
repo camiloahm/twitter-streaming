@@ -1,0 +1,7 @@
+twitter:
+  oauth:
+    consumer:
+      key: WWWWWWW
+      secret: QQQQQQ
+  tweet:
+    filter: cnn

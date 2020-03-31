@@ -1,0 +1,3 @@
+spark:
+  app:
+    outdir: writer_test/tweets_

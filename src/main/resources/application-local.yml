@@ -1,0 +1,17 @@
+spark:
+  app:
+    name: Bieber Tweets
+    tweetsLimit: 100
+    timeout: 30000 #miliseconds
+    outdir: twitterdata/tweets_
+  master: local[2]
+  batch:
+    duration: 1000 #miliseconds
+
+twitter:
+  oauth:
+    consumer:
+      key: RLSrphihyR4G2UxvA0XBkLAdl
+      secret: FTz2KcP1y3pcLw0XXMX5Jy3GTobqUweITIFy4QefullmpPnKm4
+  tweet:
+    filter: lorenzo
