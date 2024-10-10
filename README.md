@@ -1,4 +1,4 @@
-# Solution Syntac Java Exercise  
+# Solution Twitter Streaming Java Exercise  
 
 The exercise is place [here](README_EXERCISE.md)
 ### Build and Run
